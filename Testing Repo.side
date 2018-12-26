@@ -1,0 +1,75 @@
+{
+  "id": "45631a5a-29bd-4cc3-a5ed-9c859a50c0db",
+  "version": "1.1",
+  "name": "Testing Repo",
+  "url": "https://www.reddit.com",
+  "tests": [{
+    "id": "c2ca55e0-64a9-4c77-821b-bb3a9a568535",
+    "name": "Test",
+    "commands": [{
+      "id": "3f7752e5-aeb1-4166-bbb5-0c0ecd0747bb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f1ce21d-520c-48f4-9e2b-d1a512a07391",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1278x659",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7236ee17-cc67-4a69-9ab0-cfb187965915",
+      "comment": "",
+      "command": "click",
+      "target": "css=svg.s1w1vl9l-3.lbajZV > path",
+      "targets": [
+        ["css=svg.s1w1vl9l-3.lbajZV > path", "css"],
+        ["css=.s1w1vl9l-3 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "90fab2b1-cb86-4267-982f-d7c5e8186701",
+      "comment": "",
+      "command": "click",
+      "target": "css=svg.s1w1vl9l-2.kfPizj > path",
+      "targets": [
+        ["css=svg.s1w1vl9l-2.kfPizj > path", "css"],
+        ["css=.s1w1vl9l-2 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4de3ec86-52d5-499c-9651-6b7c76dc0b6f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=svg.s1w1vl9l-2.byVxs > path",
+      "targets": [
+        ["css=svg.s1w1vl9l-2.byVxs > path", "css"],
+        ["css=.s1w1vl9l-2 > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3abb5ee-4a8e-489f-a727-ab2e6d613a85",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=svg.s1w1vl9l-2.byVxs > path",
+      "targets": [
+        ["css=svg.s1w1vl9l-2.byVxs > path", "css"],
+        ["css=.s1w1vl9l-2 > path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eae7414b-03b1-42df-b447-da396af5cd60",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2ca55e0-64a9-4c77-821b-bb3a9a568535"]
+  }],
+  "urls": ["https://www.reddit.com/"],
+  "plugins": []
+}
